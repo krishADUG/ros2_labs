@@ -1,0 +1,39 @@
+\documentclass{ecnreport}
+
+\stud{Master 1 CORO / Option Robotique}
+\topic{Robot Operating System}
+\author{O. Kermorgant}
+
+\begin{document}
+
+\inserttitle{Robot Operating System}
+
+\insertsubtitle{Lab 5: Gazebo and robot descriptions}
+
+\paragraph{work in progress for 2025 intake}
+
+\section{Goals}
+
+This lab aims to have a better understanding on what is a robot description (\link{http://wiki.ros.org/urdf}{URDF format}) and how to set up a dynamic simulation for robot arms and mobile robots.
+
+\paragraph{Note} contrary to the other labs, this one might have trouble running in a virtual machine due to the computation load from Gazebo
+
+\subsection*{Compiling and running the package}
+
+The package should be compiled by \okt{colcon} to have the files discoverable by ROS 2:
+\begin{bashcodelarge}
+ ros2ws
+ cd ~/ros2
+ colbuild -p lab5_gazebo
+\end{bashcodelarge}
+
+
+\section{Robots in RViz: links and joints}
+
+
+\section{Robots in Gazebo: inertias and plugins}
+
+
+
+
+\end{document}
