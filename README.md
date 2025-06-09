@@ -1,4 +1,4 @@
-ROS 2 labs at Centrale Nantes
+ROS 2 labs for Master studetns at Ecole Central Nantes
 
 Introduction to launch / remapping, topic subscription / publisher, service and TF.
 
